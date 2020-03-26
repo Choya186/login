@@ -1,0 +1,149 @@
+ul{
+    
+    margin: 0;
+    padding: 0;
+    background: white;
+    overflow: hidden;
+    
+}
+ul li
+{
+    float: right;
+    list-style-type: none;
+}
+
+ul li a
+
+{
+    color: #6152A2;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px 16px;
+    display: inline-block;
+}
+
+ul li a:hover
+{
+    background:#DBD7EE;
+
+}
+img
+{
+    width: 800px;
+    height: 500px;
+    
+}
+user{
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.wave
+{
+    position: fixed;
+    height: 100%;
+    right: 0;
+    z-index: -1;
+}
+.container{
+    width: 10vw;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 7rem;
+    padding: 0 2rem;
+    
+    
+}
+
+.img
+{
+    widows: 500px;
+    
+}
+.login-container
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+form
+{
+    width:360px;
+    
+}
+form h2
+{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    margin: 15px 0;
+    color: #333;
+    
+    
+}
+
+.avatar
+{
+    width: 400px;
+}
+.input-div
+{
+    display:grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding-bottom: 2px solid #6152A2;
+
+}
+
+.input-div.one
+{
+    margin-top: 0;
+}
+
+.input-div.two
+{
+    margin-bottom:4px;
+}
+
+.i
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i i
+{
+    color: #6152A2;
+}
+
+
+a:hover
+{
+    color: aqua;
+}
+
+.btn
+{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    margin: 1rem 0;
+}
+.btn:hover{
+    background-position: left;
+}
+
+
+
+
